@@ -1,0 +1,275 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/f64768f816.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <link rel="shortcut icon" href="./solar/95186ECF-A9C5-4E38-8BEA-E3A8916E078C_1_201_a.jpeg" type="image/svg+xml">
+  <title>Arora Solar</title>
+  
+</head>
+
+  <body class="bg-gray-100" >
+    <!-- Navbar -->
+    <nav class=" flex flex-wrap  bg-black opacity-80   justify-between items-center fixed top-0 left-0 right-0 z-50 shadow-lg">
+
+      <a href="#"  class="flex  gap-2 md:ml-10 items-center" >
+        <img class="object-cover w-10 h-10" src="./solar/logo2.png"  alt="logo">
+        <span class=" text-2xl  font-bold text-green-500 font-logoheading" data-aos="fade-right" data-aos-duration="1500">Arora Solar</span>
+      </a>
+  
+      <div id="nav-menu" class="hidden   md:flex gap-7">
+        <a href="index.html" class=" font-light  text-xl  text-white hover:underline rounded-lg p-3">Home</a>
+        <a href="about2.html" class=" font-light  text-xl  text-white hover:underline rounded-lg p-3">About</a>
+        <a href="./projects.html" class=" font-light  text-xl  text-white hover:underline rounded-lg p-3">Projects</a>
+        <a href="services.html" class=" font-light  text-xl  text-white hover:underline rounded-lg p-3">Services</a>
+        <a href="contact.html" class=" font-light  text-xl  text-white hover:underline rounded-lg p-3">Contact</a>
+      </div>
+  
+      <button class="md:hidden" onclick="handleMenu()">
+        <span class="p-2 material-symbols-outlined text-white">
+          menu
+          </span>
+  
+      </button>
+  
+      <div id="nav-dialog" class= "hidden fixed  z-10 md:hidden bg-black bg-opacity-80 inset-0 p-3">
+        <div id="nav-bar" class="flex  justify-between">
+          <a href="#"  class="flex  gap-2  items-center" >
+            <img class="object-cover w-20 h-20" src="./solar/logo2.png"  alt="logo">
+            <span class=" text-2xl md:text-4xl font-bold text-green-600 font-logoheading" >Arora Solar</span>
+          </a>
+  
+        
+        <button class="md:hidden" onclick="handleMenu()">
+          <span class="p-2 material-symbols-outlined text-white">
+            close
+            </span>
+    
+        </button>
+        </div>
+        <div class="mt-6">
+          <a href="index.html" class=" font-medium p-3 m-3 text-white hover:bg-green-400 block rounded-lg">Home</a>
+          <a href="about2.html" class=" font-medium p-3 m-3 text-white hover:bg-green-400 block rounded-lg">About</a>
+          <a href="./projects.html" class=" font-medium p-3 m-3  text-white hover:bg-green-400 block rounded-lg">Projects</a>
+          <a href="services.html" class=" font-medium p-3 m-3  text-white hover:bg-green-400 block rounded-lg">Services</a>
+          <a href="contact.html" class=" font-medium p-3 m-3  text-white hover:bg-green-400 block rounded-lg">Contact</a>
+  
+        </div>
+    
+      </div>
+  
+  </nav>
+<!-- testing -->
+
+  <!-- Hero section -->
+  <div class="bg-black ">
+    <section class="py-12 bg-gradient-to-b  from-blue-900">
+        <div class="container mx-auto mt-28 md:mt-36  pb-20  text-center text-white">
+            <h2 class="text-4xl font-bold">Get in Touch with Us Today</h2>
+            <p class="mt-4 text-gray-300">Reach out to us with any questions or concerns you may have, and we’ll be happy to help.</p>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white mx-5 text-gray-800 rounded-lg shadow-md">
+                    <div class="flex justify-center mb-4">
+                        <span class="inline-block bg-orange-500 p-4 rounded-full">
+                          <i class="fa-solid fa-location-dot text-white"></i>
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-semibold ">Office Location</h3>
+                    <p class="mt-4 text-gray-600"> Sriram nagar, koppla district , Karnataka </p>
+                </div>
+                <div class="p-6 bg-green-500 mx-5 text-white rounded-lg shadow-md">
+                    <div class="flex justify-center mb-4">
+                        <span class="inline-block bg-orange-500 p-4  rounded-full">
+                          <i class="fa-solid fa-phone"></i>
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Give Us A Call</h3>
+                    <p class="mt-4">+91 8861923846 / +91 9380833763 </p>
+                </div>
+                <div class="p-6 bg-white mx-5 text-gray-800 rounded-lg shadow-md">
+                    <div class="flex justify-center mb-4">
+                        <span class="inline-block bg-orange-500 p-3 rounded-full">
+                          <i class="fa-solid fa-envelope text-white"></i>
+                        </span>
+                    </div>
+                    <h3 class="text-2xl font-semibold">Email Us</h3>
+                    <p class="mt-4 text-gray-600">sales@arorasolar.in</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  </div>
+    
+    
+
+
+
+
+
+  <!-- 2section-->
+  <!-- <div id="2sections" class="mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 m-10 items-center">
+    <div class="box-border m-3 h-auto w-auto border-4 border-stone-50 bg-green-500 bg-opacity-40 rounded-2xl shadow-lg  " data-aos="fade-right" data-aos-duration="700">
+       <h2 class="text-2xl font-bold sm:m-8 p-3"> WE ARE HERE TO PROVIDE MAKE UR ELECTRIC BILLS LOW</h2>
+        
+      <p class="text-xl font-light font-boxtext sm:text-2xl sm:m-8 p-3  "data-aos='fade-right'>We believe in a future powered by clean and renewable energy. we're dedicated to providing innovative solutions that make it easier and more affordable for individuals and businesses to transition to sustainable energy sources. Join us as we work towards a greener tomorrow, one time investment.</p>
+    </div>
+    <div>
+      <img src="./solar/Electrify-America-Solar-Hero.webp" class="rounded-lg shadow-xl" alt="image" data-aos='fade-left'data-aos-duration='700'>
+    </div>
+    </div>
+    </div> -->
+
+  <!-- forms -->
+
+  <div class="bg-gray-100 p-5 flex items-center justify-center min-h-screen">
+    <div class="container mx-auto mt-12 p-6 bg-white rounded-xl shadow-xl flex flex-col md:flex-row ">
+        <div class="w-full md:w-1/2 p-5  ">
+            <h2 class="text-3xl font-bold pt-10 text-gray-800">Conatact Us</h2>
+            <p class="mt-4 text-gray-600 pt-10">For any infromation send your quire. we are here to help you. </p>
+            <form class="mt-8 space-y-4 " method="POST" action="https://formspree.io/f/xkgwwzbk">
+                <div class="flex flex-col">
+                    <label for="name" class="text-gray-600 font-semibold md:pt-5">Full Name:</label>
+                    <input type="text" name="text" id="name" class="mt-1 p-2 border border-gray-300 rounded-md" placeholder="Input your name">
+                </div>
+                <div class="flex flex-col md:flex-row md:space-x-4">
+                    <div class="flex flex-col flex-grow">
+                        <label for="email" class="text-gray-600 font-semibold md:pt-5">Email:</label>
+                        <input type="email" name="email" id="email" class="mt-1 p-2 border border-gray-300 rounded-md" placeholder="Input your email">
+                    </div>
+                    <div class="flex flex-col flex-grow mt-4 md:mt-0">
+                        <label for="subject" class="text-gray-600 font-semibold md:pt-5">Phone:</label>
+                        <input type="text" name="text" id="subject" class="mt-1 p-2 border border-gray-300 rounded-md" placeholder="+91 9999999999">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <label for="message" class="text-gray-600 font-semibold md:pt-5">Your Message:</label>
+                    <textarea id="message" name="text" class="mt-1 p-2 border border-gray-300 rounded-md" placeholder="Write your message" rows="4"></textarea>
+                </div>
+                <div class="md:pt-5">
+                  <button type="submit" class="w-full py-3 mt-6 bg-orange-500 text-white font-bold rounded-md hover:bg-orange-600 transition duration-300">Send Message</button>
+
+                </div>
+            </form>
+        </div>
+        <div class="w-full md:w-1/2 p-6">
+            <img src="./solar/hello.png" alt="Solar Panel Worke r"  class="rounded-lg h-auto ">
+        </div>
+    </div>
+  </div>
+
+  
+  <!-- Blue card -->
+  
+
+  <!-- what we do card -->
+
+ 
+
+
+
+  <!-- who are we card -->
+
+
+  
+  
+
+  <!-- our  bloging card -->
+  
+
+
+  <!-- Fotter card -->
+   <div id="Foter">
+   <!-- Section with Heading and Button -->
+   <div class="relative w-5/6 mx-auto  rounded-2xl shadow-2xl bg-gray-800 py-10 inset-x-0 bottom-0 transform translate-y-1/2">
+    <div class="container mx-auto px-5 text-center">
+        <h2 class="text-green-500 text-xl md:text-2xl mb-2">We Are Always Ready For You</h2>
+        <h1 class="text-white text-2xl md:text-4xl font-bold mb-4">Have Questions? We Are Here To Help You</h1>
+        <div class="relative inline-block">
+            <a href="#" class="bg-green-500 text-white font-bold py-2 px-4 rounded-full">Contact Us</a>
+            
+        </div>
+        
+    </div>
+   </div>
+
+
+
+
+    <div class="bg-gray-900 pt-24 pb-0">
+    <div class="container mx-auto  mt-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+            <div class="text-white">
+                <img src="./solar/logo.jpeg" alt="Dometric Logo" class="h-28 mx-auto  ">
+                <p class="md:m-5">Duis dictum vestibulum ante vitae ullamcor. Phasellus ullamcorper odio vitae eleifend ultricies lectus orci congue magna.</p>
+                <div class="flex space-x-3 text-3xl md:m-5">
+                    <a href="#" class="text-white"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#" class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="text-white"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                    <a href="#" class="text-white"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="text-white pl-14">
+                <h3 class="text-lg font-bold  ">Support</h3>
+                <ul>
+                    <li><a href="#" class="hover:underline">FAQ's</a></li>
+                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline">Term & Conditions</a></li>
+                    <li><a href="#" class="hover:underline">Contact</a></li>
+                    <li><a href="#" class="hover:underline">History & Experiences</a></li>
+                </ul>
+            </div>
+            <div class="text-white">
+                <h3 class="text-lg font-bold ">Contact</h3>
+                <p>Address : Sunset Road, Parkville VIC 3052, Badung, Bali</p>
+                <p>Phone : +(62) 85-964-47-25</p>
+                <p>Email : dometric@domain.com</p>
+                <p>Work Hours : Mon - Tue : 09:00 AM - 18:00 PM</p>
+            </div>
+            <div class="text-white">
+                <h3 class="text-lg font-bold ">Our Location</h3>
+                <iframe class="w-full h-40" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799131533!2d-74.25986557359706!3d40.69767006773048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2508b051a726f%3A0x6e44d3204c486a0a!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1559739054638!5m2!1sen!2sin" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <hr class="border-t-2 border-gray-700 my-2">
+
+        <div class="text-center text-white py-3">
+            <p>Arora Solar. All rights reserved.</p>
+        </div>
+    </div>
+     </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000, // animation duration in milliseconds
+        easing: 'ease-in-out', // easing function
+        // once: true // whether animation should happen only once
+    });
+</script>
+  </body>
+  <script src="script.js"></script>
+  </html>

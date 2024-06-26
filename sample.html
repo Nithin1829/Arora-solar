@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f64768f816.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <link rel="shortcut icon" href="./solar/95186ECF-A9C5-4E38-8BEA-E3A8916E078C_1_201_a.jpeg" type="image/svg+xml">
+    <title>Arora Solar</title>
+    <style>
+        .read-more-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease;
+        }
+        .expanded .read-more-content {
+            max-height: 200px; /* Adjust based on content */
+        }
+    </style>
+
+</head>
+<body class=" bg-gray-100 ">
+    <!-- Navbar -->
+    <nav class="p-3 flex flex-wrap  bg-black opacity-80  justify-between items-center fixed top-0 left-0 right-0 z-50 shadow-lg">
+
+        <a href="#"  class="flex  gap-2 md:ml-10 items-center" >
+          <img class="object-cover w-20 h-20" src="../../solar/logo2.png"  alt="logo">
+          <span class=" text-2xl md:text-4xl font-bold text-green-500 font-logoheading" data-aos="fade-right" data-aos-duration="1500">Arora Solar</span>
+        </a>
+    
+        <div id="nav-menu" class="hidden p-3  md:flex gap-7">
+          <a href="/index.html" class=" font-light  text-2xl  text-white hover:bg-gradient-to-br from-green-400 via-green-500 to-transparent rounded-lg p-3">Home</a>
+          <a href="#" class=" font-light  text-2xl  text-white hover:bg-gradient-to-br  from-green-400 via-green-500 to-transparent rounded-lg p-3">About</a>
+          <a href="#" class=" font-light  text-2xl  text-white hover:bg-gradient-to-br from-green-400 via-green-500 to-transparent rounded-lg p-3">Projects</a>
+          <a href="#" class=" font-light  text-2xl  text-white hover:bg-gradient-to-br from-green-400 via-green-500 to-transparent rounded-lg p-3">Services</a>
+          <a href="#" class=" font-light  text-2xl  text-white hover:bg-gradient-to-br from-green-400 via-green-500 to-transparent rounded-lg p-3">Contact</a>
+        </div>
+    
+        <button class="md:hidden" onclick="handleMenu()">
+          <span class="p-2 material-symbols-outlined text-white">
+            menu
+            </span>
+    
+        </button>
+    
+        <div id="nav-dialog" class= "hidden fixed  z-10 md:hidden bg-black bg-opacity-80 inset-0 p-3">
+          <div id="nav-bar" class="flex  justify-between">
+            <a href="#"  class="flex  gap-2  items-center" >
+              <img class="object-cover w-20 h-20" src="../../solar/logo2.png"  alt="logo">
+              <span class=" text-2xl md:text-4xl font-bold text-green-600 font-logoheading" >Arora Solar</span>
+            </a>
+    
+          
+          <button class="md:hidden" onclick="handleMenu()">
+            <span class="p-2 material-symbols-outlined text-white">
+              close
+              </span>
+      
+          </button>
+          </div>
+          <div class="mt-6">
+            <a href="#" class=" font-medium p-3 m-3 text-white hover:bg-green-400 block rounded-lg">Home</a>
+            <a href="#" class=" font-medium p-3 m-3 text-white hover:bg-green-400 block rounded-lg">About</a>
+            <a href="#" class=" font-medium p-3 m-3  text-white hover:bg-green-400 block rounded-lg">Projects</a>
+            <a href="#" class=" font-medium p-3 m-3  text-white hover:bg-green-400 block rounded-lg">Services</a>
+            <a href="#" class=" font-medium p-3 m-3  text-white hover:bg-green-400 block rounded-lg">Contact</a>
+    
+          </div>
+      
+        </div>
+    
+    </nav>
+    <!-- hero sectino -->
+    <div id="bluecard" class="" >
+        <div class=" bg-[url('../../solar/team2.jpeg')] bg-center   mx-0 md:mx-0 ">
+    
+          <div class=" bg-blue-600 bg-opacity-75 p-0">
+            <div class="container mx-auto py-10 px-5">
+             
+                <div class="grid grid-cols-1  gap-5 items-center">
+                    <div class="relative">
+                      <div id="hero-container" class="container max-w-3xl mx-auto px-4 pb-9 flex flex-col sm:items-center sm:text-center sm:pt-12 sm:max-w-2xl">
+                        <h1 class="text-4xl sm:text-6xl font-semibold leading-snug mb-6 mt-32 text-white md:text-black " data-aos="fade-up" data-aos-duration="1500">"Get solar and tell your electricity bill to take a Rest!"
+                        </h1>
+                        
+                      </div>
+                    </div>
+                    <div class="text-white">
+                        <h2 class="text-lg md:text-xl font-semibold text-orange-500 mb-2" data-aos="fade-right" data-aos-duration="700">Switch To Solar</h2>
+                        <h1 class="text-2xl md:text-4xl font-bold mb-4" data-aos="fade-left" data-aos-duration="700">If Your Solar System Needs Inspection Or Repair?</h1>
+                        <p class="mb-4" data-aos="fade-right">At varius vel pharetra vel turpis nunc eget lorem. Leo vel fringilla est ullamcorper eget nulla facilisi etiam. Mauris commodo quis imperdiet massa. Consequat nisl vel pretium lectus quam id leo in vitae.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        </div>
+    
+      </div>
+        
+    <!-- Main Content -->
+
+    <div class="container w-screen mx-auto p-8 my-auto ">
+        <div class="grid gap-6 grid-flow-row">
+            <!-- Card 1 -->
+            <div id="card1" class="bg-white p-6 rounded-lg shadow-md">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 1</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div id="readMoreContent1" class="read-more-content mt-2">
+                    <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+                </div>
+                <button id="toggleButton1" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card1', 'readMoreContent1', 'toggleButton1')">Read More</button>
+            </div>
+
+            <!-- Card 2 -->
+            <div id="card2" class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-right">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 2</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div id="readMoreContent2" class="read-more-content mt-2">
+                    <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+                </div>
+                <button id="toggleButton2" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card2', 'readMoreContent2', 'toggleButton2')">Read More</button>
+            </div>
+
+            <!-- Card 3 -->
+            <div id="card3" class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-left">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 3</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div id="readMoreContent2" class="read-more-content mt-2">
+                    <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+                </div>
+                <button id="toggleButton2" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card2', 'readMoreContent2', 'toggleButton2')">Read More</button>
+            </div>
+
+            <!-- Card 4 -->
+            <div id="card4" class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-right">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 4</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div id="readMoreContent2" class="read-more-content mt-2">
+                    <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+                </div>
+                <button id="toggleButton2" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card2', 'readMoreContent2', 'toggleButton2')">Read More</button>
+            </div>
+
+            
+
+            <!-- Card 5 -->
+            <div id="card5" class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-left">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 5</h2>
+                <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div id="readMoreContent3" class="read-more-content mt-2">
+                    <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+                </div>
+                <button id="toggleButton3" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card3', 'readMoreContent3', 'toggleButton3')">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        function toggleReadMore(cardId, contentId, buttonId) {
+            const card = document.getElementById(cardId);
+            const readMoreContent = document.getElementById(contentId);
+            const readMoreButton = document.getElementById(buttonId);
+
+            if (card.classList.contains('expanded')) {
+                readMoreContent.style.maxHeight = null;
+                readMoreButton.textContent = 'Read More';
+            } else {
+                readMoreContent.style.maxHeight = readMoreContent.scrollHeight + 'px';
+                readMoreButton.textContent = 'Read Less';
+            }
+
+            card.classList.toggle('expanded');
+        }
+
+        const navDialog=document.getElementById('nav-dialog');
+
+      function handleMenu(){
+    navDialog.classList.toggle('hidden')
+    
+    }
+
+    AOS.init({
+        duration: 1000, // animation duration in milliseconds
+        easing: 'ease-in-out', // easing function
+        // once: true // whether animation should happen only once
+    });
+
+
+    </script>
+
+    
+</body>
+</html>
