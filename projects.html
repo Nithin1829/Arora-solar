@@ -20,6 +20,17 @@
     .expanded .read-more-content {
         max-height: 200px; /* Adjust based on content */
     }
+    .fixed-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(2, 30, 83, 0.836);
+            color: #fff;
+            padding: 1rem;
+            border-bottom-left-radius: 20px ;
+            border-bottom-right-radius: 20px ;
+        }
 </style>
 
   
@@ -90,6 +101,56 @@
     </section>
   </div>
     
+  <!-- images coloumn -->
+
+  <body class="bg-gray-100">
+    <div class="container mx-auto p-20">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div class="relative">
+                <img src="./solar/solar-8499901_640.jpg" alt="Solar Panel Installation" class="w-full h-auto object-cover rounded-2xl">
+                <div class="fixed-overlay">
+                    <h3 class="text-lg font-bold">Solar Panel Installation</h3>
+                    <p>Efficient and sustainable solar panel installation services.</p>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="./solar/solar-8499901_640.jpg" alt="Wind Energy Center" class="w-full h-auto object-cover rounded-2xl">
+                <div class="fixed-overlay">
+                    <h3 class="text-lg font-bold">Wind Energy Center</h3>
+                    <p>Harnessing the power of wind energy for a greener future.</p>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="./solar/solar-8499901_640.jpg" alt="Solar Farm" class="w-full h-auto object-cover rounded-2xl">
+                <div class="fixed-overlay">
+                    <h3 class="text-lg font-bold">Solar Farm</h3>
+                    <p>Large-scale solar energy production for maximum efficiency.</p>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="./solar/solar-8499901_640.jpg" alt="Technicians Working on Solar Panels" class="w-full h-auto object-cover rounded-2xl">
+                <div class="fixed-overlay">
+                    <h3 class="text-lg font-bold">Technicians Working</h3>
+                    <p>Expert technicians ensuring optimal performance of solar panels.</p>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="./solar/solar-8499901_640.jpg" alt="Solar Panel Maintenance" class="w-full h-auto object-cover rounded-2xl">
+                <div class="fixed-overlay">
+                    <h3 class="text-lg font-bold">Solar Panel Maintenance</h3>
+                    <p>Regular maintenance to ensure longevity and efficiency.</p>
+                </div>
+            </div>
+            <div class="relative">
+                <img src="./solar/solar-8499901_640.jpg" alt="Solar Panel Maintenance" class="w-full h-auto object-cover rounded-2xl">
+                <div class="fixed-overlay">
+                    <h3 class="text-lg font-bold">Solar Panel Maintenance</h3>
+                    <p>Regular maintenance to ensure longevity and efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
     
     
     
@@ -123,34 +184,88 @@
  -->
  <div class="container mx-auto p-8">
     <div class="grid gap-6 grid-flow-row">
-        <!-- Card 1 -->
-        <div id="card1" class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold mb-2">Card Title 1</h2>
-            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div id="readMoreContent1" class="read-more-content mt-2">
-                <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
-            </div>
-            <button id="toggleButton1" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card1', 'readMoreContent1', 'toggleButton1')">Read More</button>
-        </div>
+    
+        
+                <!-- Card 1 -->
+                <div id="card1" class="bg-white p-6 rounded-lg shadow-md flex flex-col lg:flex-row">
+                    <div class="flex-grow">
+                        <h2 class="text-2xl font-semibold mb-2">Card Title 1</h2>
+                        <p class="text-gray-700">A solar panel is a device that converts sunlight into electricity by using photovoltaic (PV) cells. PV cells are made of materials that produce excited electrons when exposed to light. The electrons flow through a circuit and produce direct current (DC) electricity, which can be used to power various devices or be stored in batteries. Solar panels are also known as solar cell panels, solar electric panels, or PV modules.</p>
+                        <div id="readMoreContent1" class="read-more-content mt-2">
+                            <p class="text-gray-700">Solar panels are usually arranged in groups called arrays or systems. A photovoltaic system consists of one or more solar panels, an inverter that converts DC electricity to alternating current (AC) electricity, and sometimes other components such as controllers, meters, and trackers. Most panels are in solar farms, which supply the electricity grid as can some rooftop solar.
+                                In 1839, the ability of some materials to create an electrical charge from light exposure was first observed by the French physicist Edmond Becquerel.[1] Though these initial solar panels were too inefficient for even simple electric devices, they were used as an instrument to measure light.[2]
+
+                                The observation by Becquerel was not replicated again until 1873, when the English electrical engineer Willoughby Smith discovered that the charge could be caused by light hitting selenium. After this discovery, William Grylls Adams and Richard Evans Day published "The action of light on selenium" in 1876, describing the experiment they used to replicate Smith's results.[1][3]
+                                
+                                In 1881, the American inventor Charles Fritts created the first commercial solar panel, which was reported by Fritts as "continuous, constant and of considerable force not only by exposure to sunlight but also to dim, diffused daylight".[4] However, these solar panels were very inefficient, especially compared to coal-fired power plants.
+                                
+                                In 1939, Russell Ohl created the solar cell design that is used in many modern solar panels. He patented his design in 1941.[5] In 1954, this design was first used by Bell Labs to create the first commercially viable silicon solar cell.[1]
+                                
+                                Solar panel installers saw significant growth between 2008 and 2013.[6] Due to that growth many installers had projects that were not "ideal" solar roof tops to work with and had to find solutions to shaded roofs and orientation difficulties.[7] This challenge was initially addressed by the re-popularization of micro-inverters and later the invention of power optimizers.
+                                
+                                Solar panel manufacturers partnered with micro-inverter companies to create AC modules and power optimizer companies partnered with module manufacturers to create smart modules.[8] In 2013 many solar panel manufacturers announced and began shipping their smart module solutions.[9]
+                                
+                                
+                            </p>
+                        </div>
+                        <button id="toggleButton1" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card1', 'readMoreContent1', 'toggleButton1')">Read More</button>
+                    </div>
+                    <img src="./solar/solar-8499901_640.jpg" alt="Card Image" class="w-full lg:w-1/3 h-auto object-cover rounded-lg mt-4 lg:mt-0 lg:ml-6">
+                </div>
+
 
         <!-- Card 2 -->
-        <div id="card2" class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold mb-2">Card Title 2</h2>
-            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div id="readMoreContent2" class="read-more-content mt-2">
-                <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+        <div id="card2" class="bg-white p-6 rounded-lg shadow-md flex flex-col lg:flex-row">
+            <div class="flex-grow">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 2</h2>
+                <p class="text-gray-700">A solar panel is a device that converts sunlight into electricity by using photovoltaic (PV) cells. PV cells are made of materials that produce excited electrons when exposed to light. The electrons flow through a circuit and produce direct current (DC) electricity, which can be used to power various devices or be stored in batteries. Solar panels are also known as solar cell panels, solar electric panels, or PV modules.</p>
+                <div id="readMoreContent2" class="read-more-content mt-2">
+                    <p class="text-gray-700">Solar panels are usually arranged in groups called arrays or systems. A photovoltaic system consists of one or more solar panels, an inverter that converts DC electricity to alternating current (AC) electricity, and sometimes other components such as controllers, meters, and trackers. Most panels are in solar farms, which supply the electricity grid as can some rooftop solar.
+                        In 1839, the ability of some materials to create an electrical charge from light exposure was first observed by the French physicist Edmond Becquerel.[1] Though these initial solar panels were too inefficient for even simple electric devices, they were used as an instrument to measure light.[2]
+
+                        The observation by Becquerel was not replicated again until 1873, when the English electrical engineer Willoughby Smith discovered that the charge could be caused by light hitting selenium. After this discovery, William Grylls Adams and Richard Evans Day published "The action of light on selenium" in 1876, describing the experiment they used to replicate Smith's results.[1][3]
+                        
+                        In 1881, the American inventor Charles Fritts created the first commercial solar panel, which was reported by Fritts as "continuous, constant and of considerable force not only by exposure to sunlight but also to dim, diffused daylight".[4] However, these solar panels were very inefficient, especially compared to coal-fired power plants.
+                        
+                        In 1939, Russell Ohl created the solar cell design that is used in many modern solar panels. He patented his design in 1941.[5] In 1954, this design was first used by Bell Labs to create the first commercially viable silicon solar cell.[1]
+                        
+                        Solar panel installers saw significant growth between 2008 and 2013.[6] Due to that growth many installers had projects that were not "ideal" solar roof tops to work with and had to find solutions to shaded roofs and orientation difficulties.[7] This challenge was initially addressed by the re-popularization of micro-inverters and later the invention of power optimizers.
+                        
+                        Solar panel manufacturers partnered with micro-inverter companies to create AC modules and power optimizer companies partnered with module manufacturers to create smart modules.[8] In 2013 many solar panel manufacturers announced and began shipping their smart module solutions.[9]
+                        
+                        
+                    </p>
+                </div>
+                <button id="toggleButton2" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card2', 'readMoreContent2', 'toggleButton2')">Read More</button>
             </div>
-            <button id="toggleButton2" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card2', 'readMoreContent2', 'toggleButton2')">Read More</button>
+            <img src="./solar/solar-8499901_640.jpg" alt="Card Image" class="w-full lg:w-1/3 h-auto object-cover rounded-lg mt-4 lg:mt-0 lg:ml-6">
         </div>
 
         <!-- Card 3 -->
-        <div id="card3" class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-2xl font-semibold mb-2">Card Title 3</h2>
-            <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div id="readMoreContent3" class="read-more-content mt-2">
-                <p class="text-gray-700">Additional content goes here. This content is initially hidden and will be displayed when the "Read More" button is clicked.</p>
+        <div id="card3" class="bg-white p-6 rounded-lg shadow-md flex flex-col lg:flex-row">
+            <div class="flex-grow">
+                <h2 class="text-2xl font-semibold mb-2">Card Title 3</h2>
+                <p class="text-gray-700">A solar panel is a device that converts sunlight into electricity by using photovoltaic (PV) cells. PV cells are made of materials that produce excited electrons when exposed to light. The electrons flow through a circuit and produce direct current (DC) electricity, which can be used to power various devices or be stored in batteries. Solar panels are also known as solar cell panels, solar electric panels, or PV modules.</p>
+                <div id="readMoreContent3" class="read-more-content mt-2">
+                    <p class="text-gray-700">Solar panels are usually arranged in groups called arrays or systems. A photovoltaic system consists of one or more solar panels, an inverter that converts DC electricity to alternating current (AC) electricity, and sometimes other components such as controllers, meters, and trackers. Most panels are in solar farms, which supply the electricity grid as can some rooftop solar.
+                        In 1839, the ability of some materials to create an electrical charge from light exposure was first observed by the French physicist Edmond Becquerel.[1] Though these initial solar panels were too inefficient for even simple electric devices, they were used as an instrument to measure light.[2]
+
+                        The observation by Becquerel was not replicated again until 1873, when the English electrical engineer Willoughby Smith discovered that the charge could be caused by light hitting selenium. After this discovery, William Grylls Adams and Richard Evans Day published "The action of light on selenium" in 1876, describing the experiment they used to replicate Smith's results.[1][3]
+                        
+                        In 1881, the American inventor Charles Fritts created the first commercial solar panel, which was reported by Fritts as "continuous, constant and of considerable force not only by exposure to sunlight but also to dim, diffused daylight".[4] However, these solar panels were very inefficient, especially compared to coal-fired power plants.
+                        
+                        In 1939, Russell Ohl created the solar cell design that is used in many modern solar panels. He patented his design in 1941.[5] In 1954, this design was first used by Bell Labs to create the first commercially viable silicon solar cell.[1]
+                        
+                        Solar panel installers saw significant growth between 2008 and 2013.[6] Due to that growth many installers had projects that were not "ideal" solar roof tops to work with and had to find solutions to shaded roofs and orientation difficulties.[7] This challenge was initially addressed by the re-popularization of micro-inverters and later the invention of power optimizers.
+                        
+                        Solar panel manufacturers partnered with micro-inverter companies to create AC modules and power optimizer companies partnered with module manufacturers to create smart modules.[8] In 2013 many solar panel manufacturers announced and began shipping their smart module solutions.[9]
+                        
+                        
+                    </p>
+                </div>
+                <button id="toggleButton3" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card3', 'readMoreContent3', 'toggleButton3')">Read More</button>
             </div>
-            <button id="toggleButton3" class="mt-4 text-blue-500 hover:underline" onclick="toggleReadMore('card3', 'readMoreContent3', 'toggleButton3')">Read More</button>
+            <img src="./solar/solar-8499901_640.jpg" alt="Card Image" class="w-full lg:w-1/3 h-auto object-cover rounded-lg mt-4 lg:mt-0 lg:ml-6">
         </div>
     </div>
 </div>
